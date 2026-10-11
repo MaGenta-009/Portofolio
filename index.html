@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio | Hardware & IoT Engineer</title>
+  <meta name="description" content="Portofolio Hardware Engineer & IoT Engineer - Perancangan skematik, layout PCB, firmware embedded system, dan integrasi IoT.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-code">&lt;</span>HW<span class="logo-dot">.</span>Eng<span class="logo-code">/&gt;</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigasi">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#contact" class="nav-link btn-nav-cta">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="home">
+      <div class="hero-bg-grid"></div>
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="badge-status">
+            <span class="status-indicator"></span>
+            <span>Tersedia untuk Peluang Hardware & IoT Engineer</span>
+          </div>
+          <h1 class="hero-title">
+            Hardware & Embedded System <span class="text-highlight">Engineer</span>
+          </h1>
+          <p class="hero-tagline">
+            "Mewujudkan ide dari analisis rangkaian dan skematik hingga purwarupa hardware yang fungsional."
+          </p>
+          <p class="hero-desc">
+            Mahasiswa STr Teknik Elektronika dengan fokus pada perancangan perangkat keras (skematik & layout PCB), embedded system, dan integrasi IoT. Terbiasa merancang sirkuit dari level komponen, routing PCB, hingga pengujian fungsional modul hardware.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">Lihat Proyek</a>
+            <a href="#contact" class="btn btn-outline">Hubungi Saya</a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-number">3+</span>
+              <span class="stat-label">Proyek Utama</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-number">PCB</span>
+              <span class="stat-label">KiCad & Proteus</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-number">MCU</span>
+              <span class="stat-label">ESP32 & Arduino</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">ABOUT ME</span>
+          <h2 class="section-title">Latar Belakang & Fokus Rekayasa</h2>
+          <p class="section-subtitle">Membangun perangkat keras yang andal melalui pendekatan teknik yang terstruktur.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card main-text">
+            <p>
+              Saya adalah mahasiswa STr Teknik Elektronika yang berfokus pada perancangan perangkat keras (<em>hardware design</em>), pengembangan <em>embedded system</em>, dan Internet of Things (IoT). Dalam perjalanan akademik dan proyek mandiri, saya terbiasa menangani proses teknis mulai dari kalkulasi parameter komponen, pembuatan skematik sirkuit di KiCad dan Proteus, tata letak (<em>layout</em>) PCB, <em>soldering/assembly</em>, hingga pemrograman mikrokontroler menggunakan C/C++ dan Python.
+            </p>
+            <p>
+              Saya memiliki antusiasme khusus dalam memecahkan masalah integrasi sirkuit analog dan digital—seperti merancang sistem pencatu daya dengan proteksi arus, memastikan akurasi pembacaan sensor pada sistem robotik, serta membangun komunikasi data modul nirkabel melalui protokol MQTT dan HTTP. Saya selalu berusaha memastikan setiap purwarupa sirkuit yang dibuat bekerja secara aman, stabil, dan sesuai spesifikasi teknis yang direncanakan.
+            </p>
+          </div>
+
+          <div class="about-highlights">
+            <div class="highlight-card">
+              <div class="highlight-icon">⚡</div>
+              <div class="highlight-info">
+                <h3>Hardware & PCB Design</h3>
+                <p>Kalkulasi nilai komponen, skematik sirkuit, routing PCB terorganisir, serta perakitan fisik.</p>
+              </div>
+            </div>
+            <div class="highlight-card">
+              <div class="highlight-icon">💻</div>
+              <div class="highlight-info">
+                <h3>Firmware & Microcontroller</h3>
+                <p>Pengembangan logika kontrol berbasis ESP32 & Arduino menggunakan bahasa C/C++ dan Python.</p>
+              </div>
+            </div>
+            <div class="highlight-card">
+              <div class="highlight-icon">📡</div>
+              <div class="highlight-info">
+                <h3>IoT & Telemetri Data</h3>
+                <p>Integrasi protokol komunikasi data nirkabel MQTT, HTTP, dan dashboard pemantauan cloud.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">SKILLS</span>
+          <h2 class="section-title">Keahlian & Penguasaan Teknis</h2>
+          <p class="section-subtitle">Daftar teknologi, perangkat keras, dan perangkat lunak yang saya gunakan.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- PCB Design & Tools -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <div class="cat-icon">📐</div>
+              <h3>PCB Design & Tools</h3>
+            </div>
+            <ul class="skill-list">
+              <li><span class="skill-bullet"></span>KiCad</li>
+              <li><span class="skill-bullet"></span>Proteus</li>
+              <li><span class="skill-bullet"></span>Schematic Capture</li>
+              <li><span class="skill-bullet"></span>PCB Layout Routing</li>
+            </ul>
+          </div>
+
+          <!-- Microcontroller & Hardware -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <div class="cat-icon">🔌</div>
+              <h3>Microcontroller & Hardware</h3>
+            </div>
+            <ul class="skill-list">
+              <li><span class="skill-bullet"></span>ESP32</li>
+              <li><span class="skill-bullet"></span>Arduino</li>
+              <li><span class="skill-bullet"></span>Sensor & Aktuator</li>
+              <li><span class="skill-bullet"></span>PLC</li>
+            </ul>
+          </div>
+
+          <!-- Programming Languages -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <div class="cat-icon">⌨️</div>
+              <h3>Programming Languages</h3>
+            </div>
+            <ul class="skill-list">
+              <li><span class="skill-bullet"></span>C</li>
+              <li><span class="skill-bullet"></span>C++</li>
+              <li><span class="skill-bullet"></span>Python</li>
+            </ul>
+          </div>
+
+          <!-- IoT & Protocols -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <div class="cat-icon">🌐</div>
+              <h3>IoT & Protocols</h3>
+            </div>
+            <ul class="skill-list">
+              <li><span class="skill-bullet"></span>MQTT</li>
+              <li><span class="skill-bullet"></span>HTTP</li>
+              <li><span class="skill-bullet"></span>Blynk IoT Platform</li>
+            </ul>
+          </div>
+
+          <!-- Software -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <div class="cat-icon">🛠️</div>
+              <h3>Software & Tools</h3>
+            </div>
+            <ul class="skill-list">
+              <li><span class="skill-bullet"></span>Git (Version Control)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">PROJECTS</span>
+          <h2 class="section-title">Portofolio Proyek</h2>
+          <p class="section-subtitle">Daftar proyek perancangan hardware, robotika, dan IoT yang diprioritaskan untuk Hardware Engineer.</p>
+        </div>
+
+        <div class="projects-list">
+
+          <!-- PROJECT 1: Power Supply (PRIORITAS 1) -->
+          <article class="project-card featured-project">
+            <div class="project-header">
+              <div class="project-meta">
+                <span class="priority-badge">Prioritas #1 • Hardware Design</span>
+                <span class="project-type">Analog & Power Electronics</span>
+              </div>
+              <h3 class="project-title">Adjustable Voltage and Current Power Supply</h3>
+            </div>
+            <div class="project-body">
+              <p class="project-overview">
+                Perancangan dan pembuatan unit catu daya DC teregulasi mandiri dengan pengaturan keluaran tegangan serta pembatasan arus (current limiting) aktif berbasis sirkuit analog dan IC regulator.
+              </p>
+
+              <div class="project-details-grid">
+                <div class="detail-block">
+                  <h4>Problem</h4>
+                  <p>Kebutuhan sumber daya benchtop yang stabil dan aman untuk purwarupa sirkuit, di mana proteksi pembatasan arus sangat esensial agar komponen sensitif tidak terbakar akibat beban lebih.</p>
+                </div>
+                <div class="detail-block">
+                  <h4>Solution</h4>
+                  <p>Merancang sirkuit linier mandiri dengan IC regulator, komparator pembatas arus terkalibrasi, serta tata letak PCB dengan jalur arus daya yang dioptimalkan.</p>
+                </div>
+              </div>
+
+              <div class="project-info-row">
+                <div class="info-group">
+                  <span class="info-label">Peran Saya:</span>
+                  <span class="info-value">Hardware Designer (Kalkulasi komponen, Skematik, PCB Layout, Assembly komponen)</span>
+                </div>
+                <div class="info-group">
+                  <span class="info-label">Hasil:</span>
+                  <span class="info-value">Purwarupa hardware berfungsi baik; tegangan variabel stabil dan sirkuit current limiting aktif membatasi arus pada beban uji.</span>
+                </div>
+              </div>
+
+              <div class="tech-tags">
+                <span class="tech-tag">Analog Circuits</span>
+                <span class="tech-tag">IC Regulator</span>
+                <span class="tech-tag">Current Limiting</span>
+                <span class="tech-tag">PCB Layout</span>
+                <span class="tech-tag">Component Assembly</span>
+              </div>
+
+              <div class="project-footer">
+                <span class="link-placeholder">Repository / Dokumen: [Belum diisi]</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 2: Smart Home IoT (PRIORITAS 2) -->
+          <article class="project-card">
+            <div class="project-header">
+              <div class="project-meta">
+                <span class="priority-badge">Prioritas #2 • IoT & Hardware</span>
+                <span class="project-type">Embedded IoT</span>
+              </div>
+              <h3 class="project-title">Sistem Smart Home Berbasis IoT</h3>
+            </div>
+            <div class="project-body">
+              <p class="project-overview">
+                Perangkat embedded IoT berbasis ESP32 dengan custom PCB untuk monitoring lingkungan real-time dan kendali jarak jauh peralatan listrik melalui dashboard Blynk.
+              </p>
+
+              <div class="project-details-grid">
+                <div class="detail-block">
+                  <h4>Problem</h4>
+                  <p>Monitoring kondisi lingkungan ruangan dan kontrol beban listrik memerlukan sistem terpadu yang dapat diakses secara nirkabel dengan sirkuit kontrol yang aman.</p>
+                </div>
+                <div class="detail-block">
+                  <h4>Solution</h4>
+                  <p>Merancang modul PCB kontroler ESP32 mandiri dengan sirkuit pengondisi sinyal sensor suhu/kelembapan, rangkaian isolasi relai, dan firmware komunikasi nirkabel.</p>
+                </div>
+              </div>
+
+              <div class="project-info-row">
+                <div class="info-group">
+                  <span class="info-label">Peran Saya:</span>
+                  <span class="info-value">Hardware & Firmware Developer (Skematik, Desain PCB, dan Pemrograman Mikrokontroler)</span>
+                </div>
+                <div class="info-group">
+                  <span class="info-label">Hasil:</span>
+                  <span class="info-value">Sistem berhasil memantau suhu/kelembapan secara real-time dan mengeksekusi kontrol sakelar aktuator via dashboard Blynk secara stabil.</span>
+                </div>
+              </div>
+
+              <div class="tech-tags">
+                <span class="tech-tag">ESP32</span>
+                <span class="tech-tag">PCB Design</span>
+                <span class="tech-tag">Blynk</span>
+                <span class="tech-tag">MQTT / HTTP</span>
+                <span class="tech-tag">Sensor Suhu & Kelembapan</span>
+                <span class="tech-tag">C/C++</span>
+              </div>
+
+              <div class="project-footer">
+                <span class="link-placeholder">Repository / Dokumen: [Belum diisi]</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 3: Robot Car Maze Solver (PRIORITAS 3) -->
+          <article class="project-card">
+            <div class="project-header">
+              <div class="project-meta">
+                <span class="priority-badge">Prioritas #3 • Robotics</span>
+                <span class="project-type">Robotics & Navigation</span>
+              </div>
+              <h3 class="project-title">Robot Car Maze Solver</h3>
+            </div>
+            <div class="project-body">
+              <p class="project-overview">
+                Robot mobil otonom berbasis ESP32 yang dirancang untuk memecahkan rintangan labirin melalui kalkulasi sensor halangan dan pengaturan gerak aktuator.
+              </p>
+
+              <div class="project-details-grid">
+                <div class="detail-block">
+                  <h4>Problem</h4>
+                  <p>Membutuhkan navigasi otonom yang stabil dan pembacaan sensor yang presisi tanpa gangguan interferensi kelistrikan antara driver motor dan mikrokontroler.</p>
+                </div>
+                <div class="detail-block">
+                  <h4>Solution</h4>
+                  <p>Merancang skematik dan wiring sistem terstruktur di KiCad, pemisahan suplai arus beban motor, dan pembuatan algoritma kalkulasi pembacaan deretan sensor jarak.</p>
+                </div>
+              </div>
+
+              <div class="project-info-row">
+                <div class="info-group">
+                  <span class="info-label">Peran Saya:</span>
+                  <span class="info-value">Hardware & Firmware Developer (Skematik, Wiring KiCad, dan Kalkulasi Sensor)</span>
+                </div>
+                <div class="info-group">
+                  <span class="info-label">Hasil:</span>
+                  <span class="info-value">Robot mampu bermanuver di dalam jalur labirin dan merespons rintangan dinding secara otonom sesuai kalkulasi sensor.</span>
+                </div>
+              </div>
+
+              <div class="tech-tags">
+                <span class="tech-tag">ESP32</span>
+                <span class="tech-tag">KiCad (Wiring & Schematic)</span>
+                <span class="tech-tag">Sensor & Aktuator</span>
+                <span class="tech-tag">Motor Driver</span>
+                <span class="tech-tag">C/C++</span>
+              </div>
+
+              <div class="project-footer">
+                <span class="link-placeholder">Repository / Dokumen: [Belum diisi]</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section class="section section-alt" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">EXPERIENCE</span>
+          <h2 class="section-title">Pengalaman Teknis</h2>
+          <p class="section-subtitle">Pengembangan proyek akademik, embedded system, dan perancangan hardware mandiri.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3>Hardware & Embedded Systems Development</h3>
+                <span class="timeline-tag">Akademik & Proyek Mandiri</span>
+              </div>
+              <p class="timeline-desc">
+                Mengembangkan serangkaian purwarupa perangkat keras elektronika dan aplikasi sistem tertanam (embedded) dengan fokus pada keandalan sirkuit fisik:
+              </p>
+              <ul class="timeline-bullets">
+                <li>Merancang skematik sirkuit skalar dan layout PCB untuk keperluan modul IoT serta modul catu daya menggunakan KiCad dan Proteus.</li>
+                <li>Melakukan kalkulasi nilai komponen analog/digital, penyesuaian beban daya, serta perakitan fisik (soldering) komponen thru-hole dan surface-mount.</li>
+                <li>Mengintegrasikan mikrokontroler (ESP32, Arduino) dengan berbagai sensor dan aktuator menggunakan bahasa C/C++ dan Python.</li>
+                <li>Melakukan pengujian fungsional modul, pengukuran tegangan/arus uji, serta hardware troubleshooting mandiri.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">EDUCATION</span>
+          <h2 class="section-title">Latar Belakang Pendidikan</h2>
+          <p class="section-subtitle">Pondasi akademis formal di bidang rekayasa elektronika.</p>
+        </div>
+
+        <div class="education-card">
+          <div class="edu-badge">STr Degree</div>
+          <div class="edu-main">
+            <h3 class="edu-degree">Sarjana Terapan (S.Tr.) Teknik Elektronika</h3>
+            <p class="edu-institution">[Nama Politeknik / Universitas - Belum diisi]</p>
+            <p class="edu-focus">
+              <strong>Fokus Pembelajaran:</strong> Embedded Systems, Perancangan Perangkat Keras (PCB & Skematik), Otomasi Industri & PLC, Pengolahan Sinyal Sensor, dan Internet of Things (IoT).
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="section section-alt" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">CONTACT</span>
+          <h2 class="section-title">Hubungi Saya</h2>
+          <p class="section-subtitle">Tertarik berdiskusi seputar peluang kerja atau kerja sama perancangan hardware?</p>
+        </div>
+
+        <div class="contact-wrapper">
+          <div class="contact-info-panel">
+            <h3>Mari Terhubung</h3>
+            <p>Saya terbuka untuk kesempatan kerja penuh waktu, magang, maupun kolaborasi proyek di bidang Hardware Engineering dan IoT.</p>
+
+            <div class="contact-links-list">
+              <div class="contact-item">
+                <span class="contact-icon">📧</span>
+                <div>
+                  <span class="contact-type">Email</span>
+                  <a href="mailto:[email@domain.com]" class="contact-link">[email@domain.com - Belum diisi]</a>
+                </div>
+              </div>
+              <div class="contact-item">
+                <span class="contact-icon">💼</span>
+                <div>
+                  <span class="contact-type">LinkedIn</span>
+                  <a href="#" class="contact-link" target="_blank" rel="noopener">[linkedin.com/in/username - Belum diisi]</a>
+                </div>
+              </div>
+              <div class="contact-item">
+                <span class="contact-icon">🐙</span>
+                <div>
+                  <span class="contact-type">GitHub</span>
+                  <a href="#" class="contact-link" target="_blank" rel="noopener">[github.com/username - Belum diisi]</a>
+                </div>
+              </div>
+              <div class="contact-item">
+                <span class="contact-icon">📍</span>
+                <div>
+                  <span class="contact-type">Lokasi</span>
+                  <span class="contact-link">Indonesia [Belum diisi]</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 Portofolio Hardware & IoT Engineer. Hak cipta dilindungi.</p>
+      <a href="#home" class="back-to-top">Kembali ke Atas ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
